@@ -1,0 +1,11 @@
+FeatureKeywords:string:la:macromodel, la:macromodel:nmaxthreads:6, block:type:saved:MWSSCHEM, model:layerstacking:automatic, mesh:tet:extrudeopenboundaries, mesh:tet:decouplingplane, mesh:workflow:nru, mesh:workflow:srf2vol, mesh:workflow:boolean, mesh:workflow:boolean:2025plus, mesh:workflow:cad2srf, mesh:workflow:cadsurf, acceleration:cpu:6, acceleration:cpudevices:1, solver:hf:fd:task:1, monitor:resultfilemap:load, solver:hf:fd:meshenhancement, la:iterative, la:precond:pdss7, la:parallel_excitation:block, monitor:resultfilemap:save, mesh:tet:adaptive:anisotropicedge, lineqssolver:setting:acceleratedrestart, lineqssolver:setting:auto, lineqssolver:setting:treecotree, mesh:tet:adaptive, solver:hf:fd, modeler:load:fastloading, meshloading:problem_class_only, modeler:history:header_not_parsed, monitor:farfield:single freq, meshline:hex:check_after_loading:default
+LastWorkflowState:string:tetmesh:success
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:2045
+solver_hf_tet_fd/MaxResidentSizeInMB:int:280
+solver_hf_tet_fd/MaxResidentSizeMiB:int:248
+solver_hf_tet_fd/MinFreePhysicalInMB:int:1807
+tetmesh/InitialFreePhysicalInMB:int:2051
+tetmesh/MaxResidentSizeInMB:int:81
+tetmesh/MaxResidentSizeMiB:int:60
+tetmesh/MinFreePhysicalInMB:int:2004
+---

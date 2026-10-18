@@ -1,0 +1,130 @@
+2026-02-17 23:50:45   In order to get an optimal performance, hyperthreading is ignored for parallel
+                      computations.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:45   S-parameter ports are not defined. Therefore, the adaptive mesh refinement will
+                      stop after the maximum number of passes (8). Furthermore, frequency sample
+                      definitions without an explicitly given number of samples cannot be considered.
+                      More...
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open
+                        Xmax: expanded open
+
+                        Ymin: expanded open
+                        Ymax: expanded open
+
+                        Zmin: expanded open
+                        Zmax: expanded open
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   Order settings: 
+
+                        Solver order   : 2nd (constant)
+                        Curved elements: up to order 3 (automatic)
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52     Mesh time                :	4 s
+
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   
+                      ================================================================================
+                      Frequency Domain Solver calculation cycle started
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   Solver started at: 2026-02-17 23:50:52 +0530
+
+                        Module:  Frequency Domain: S-Parameter (Win 64)
+                        Version: 2025.4 Release from 2025-04-11 (change 1409410)
+
+                        Free disk space at solver start is 119 GB.
+
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   An iterative solver will be used first.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:52   The wavelength based mesh refinement has been applied to 0.2% of all mesh edges.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:53   For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:53     Calculation 1 of 1 (Frequency: 60 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:54   Multilayer stackup:
+
+                                 | +++++++++ Open boundary ++++++++
+                            2.65 +
+                                 | Thickness:       5.30, Material: air_0
+                            -2.6 +
+                                 | +++++++++ Open boundary ++++++++
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:54   Adaptive mesh refinement pass 1
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:59     Matrix setup time        :	1 s
+                        Degrees of freedom       :	103866
+                        Number of mesh cells     :	15031
+
+                        Stimulation with         :	Plane wave
+                        Accuracy                 :	8.48186e-05
+                        Iterations               :	66
+                        Solver time              :	3 s
+
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:50:59   9% of all mesh edges seem to be longer than expected. The adaptive mesh refinement's growth limitation will therefore 
+                      use 23518 instead of 14684 mesh cells as a reference.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:01   For some elements the curvature had to be reduced to maintain the quality of the mesh. More...
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:02   *** Error ***
+
+2026-02-17 23:51:02   This version is licensed for up to 20000 mesh cells only. The current mesh size exceeds this limit. Please reduce the 
+                      mesh size accordingly.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:02   Some exception was reported.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:02     ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        20224                         1996928      1995724      
+                        Eq. system setup    160868                        1938048      1873700      
+                        Eq. system solve    273780                        1873692      1763124      
+                        Mesh refinement     273780                        1820876      1820832      
+                        Solver run total    273780                        1996932      1764244      
+
+                        Computer name       DESKTOP-DSJFOVS
+                        ----------------------------------------------------------------------------
+
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:02   Running postprocessing.
+
+                      ------------------------------------------------------------------------------
+2026-02-17 23:51:02   Postprocessing finished.
+
+                      ------------------------------------------------------------------------------
